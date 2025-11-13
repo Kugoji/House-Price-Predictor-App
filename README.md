@@ -1,5 +1,5 @@
 # Calgary House Price Predictor App 
-A personal project of mine where I provide data analysis, make multiple machine learning models, and allow users to then predict what the price of a house might be in **Calgary, AB** given their own parameter input values!  
+A personal project of mine where I provide data analysis, make multiple machine learning models, and allow users to then predict what the price of a house might be in **Calgary, AB** given their own variable input values!  
 Here's the link to interact with the app directly: https://yyc-house-prices.streamlit.app 
 
 ## How It's Made
@@ -27,7 +27,7 @@ Another interactive graph made using `plotly` will show the distribution of `hou
 ### `Model Results Mode`
 This mode functions as somewhat of an "exhibit" where users can not only view, but compare the specifications and make-up of the various models that will be used to form predictions. 
 
-The user can choose between either a `Basic OLS`, `OLS With Interaction Terms` or `Polynomial` regression model. Depending on what the user selects, the respective equation of the model will be shown, displaying the variables used. 
+The user can choose between either a `Basic OLS`, `OLS With Interaction Terms` or `Polynomial (Quadratic)` regression model. Depending on what the user selects, the respective equation of the model will be shown, displaying the variables used. 
 
 From this model selection, the user can then select an `output` from the model which can be in the form of:  
 
@@ -36,6 +36,28 @@ From this model selection, the user can then select an `output` from the model w
 `Residual Plot` - which presents an **interactive scatterplot** of the residuals from the chosen model, showing how **far off predictions are from actual observations**  
 
 Since there are two columns, the user can **view two seperate models at the same time**, comparing the values of each model with another.  
+
+### `Prediction Mode` 
+This mode is where the fun happens! The user can now select a given model and use it to form their own predictions on house prices based on their variable input values! 
+
+To get started, there are important rules that must be followed so the app functions as designed: 
+
+- **Only integer** values can be used for the `bed` variable `(eg. 3)`
+- **Integer** or **.5** values can be used for the `bathroom` variable `(eg. 2.5)`
+- To choose `SW` as your area quadrant, **leave all other area quadrants with the input of 0**
+- **Do not select more than one area quadrant as having a value of 1**
+
+Using `Choose model` the user can then select one of the previously named models that will be forming their house price predictions.  
+
+Once selected, the user can choose the values of the **input variables** like the `square footage`, `number of beds`, `number of baths`.  
+
+To select an **area quadrant**, the user must insert a value of `1` for the desired quadrant while leaving the others at `0`. To show the `SW` quadrant, the user must leave all the displayed area quadrants with a value of `0`.  
+
+To then finally **produce the prediction**, the user must select `Intialize model` on the left-hand side. Once selected, a predicted price of the house the user "configured" will be shown!   
+
+The different models will have different prediction values, even when given the same input values, so try to explore their differences and compare which ones might be more accurate! 
+
+
 
 
 
