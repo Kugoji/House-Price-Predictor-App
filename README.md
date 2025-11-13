@@ -53,7 +53,7 @@ Once selected, the user can choose the values of the **input variables** like th
 
 To select an **area quadrant**, the user must insert a value of `1` for the desired quadrant while leaving the others at `0`. To show the `SW` quadrant, the user must leave all the displayed area quadrants with a value of `0`.  
 
-To then finally **produce the prediction**, the user must select `Intialize model` on the left-hand side. Once selected, a predicted price of the house the user "configured" will be shown!   
+To then finally **produce the prediction**, the user must select `Intialize model` on the **left-hand side**. Once selected, a predicted price of the "configured" house will be shown!   
 
 The different models will have different prediction values, even when given the same input values, so try to explore their differences and compare which ones might be more accurate! 
 
