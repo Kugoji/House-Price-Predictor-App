@@ -31,9 +31,9 @@ The user can choose between either a `Basic OLS`, `OLS With Interaction Terms` o
 
 From this model selection, the user can then select an `output` from the model which can be in the form of:  
 
-`Model Specs` - which shows the **specifications** and **statistical significance** of the variables used in the selected model
-`VIF Test` - which shows the value of a VIF test, signalling the level of **multicollinearity** present within the model 
-`Residual Plot` - which presents an **interactive scatterplot** of the residuals from the model, showing how **far off predictions are from actual observations** 
+`Model Specs` - which shows the **specifications** and **statistical significance** of the variables used in the selected model  
+`VIF Test` - which shows the value of a VIF test, signalling the level of **multicollinearity** present within the model   
+`Residual Plot` - which presents an **interactive scatterplot** of the residuals from the model, showing how **far off predictions are from actual observations**  
 
 
 
