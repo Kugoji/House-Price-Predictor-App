@@ -22,8 +22,10 @@ An interactive graph made using `plotly` shows a **scatter plot** between the `p
 
 The user can also select which **center statistic** of the house prices they would like to view (`mean`, `median`, `mode`) and they can then see it broken down by **area quadrant**.  
 
-Another interactive graph made using `plotly` will show the distribution of `house prices` based on their `area quadrant`, enabling users to interact directly with the histrograms to see additional information on how many houses are present within a specific price range. 
+Another interactive graph made using `plotly` will show the distribution of `house prices` based on their `area quadrant`, enabling users to interact directly with the histrograms to see additional information on how many houses are present within a specific price range.  
 
+## `Model Results Mode`
+This mode functions as somewhat of an "exhibit" where users can not only view, but compare the specifications and make-up of the various models that will be used to form predictions. 
 
 
 
