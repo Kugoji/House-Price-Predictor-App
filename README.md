@@ -24,8 +24,21 @@ The user can also select which **center statistic** of the house prices they wou
 
 Another interactive graph made using `plotly` will show the distribution of `house prices` based on their `area quadrant`, enabling users to interact directly with the histrograms to see additional information on how many houses are present within a specific price range.  
 
-## `Model Results Mode`
+### `Model Results Mode`
 This mode functions as somewhat of an "exhibit" where users can not only view, but compare the specifications and make-up of the various models that will be used to form predictions. 
+
+The user can choose between either a `Basic OLS`, `OLS With Interaction Terms` or `Polynomial` regression model. Depending on what the user selects, the respective equation of the model will be shown, displaying the variables used. 
+
+From this model selection, the user can then select an `output` from the model which can be in the form of:  
+
+`Model Specs` - which shows the **specifications** and **statistical significance** of the variables used in the selected model
+`VIF Test` - which shows the value of a VIF test, signalling the level of **multicollinearity** present within the model 
+`Residual Plot` - which presents an **interactive scatterplot** of the residuals from the model, showing how **far off predictions are from actual observations** 
+
+
+
+
+
 
 
 
