@@ -1,5 +1,5 @@
 # Calgary House Price Predictor App 
-A personal project of mine where I provide data analysis, make multiple machine learning models, and allow users to then predict what the price of a house might be in **Calgary, AB** given their own variable input values!  
+A personal project of mine where I provide data analysis, make multiple machine learning models, and allow users to then predict what the price of a house might be in **Calgary, AB** given their own input variable values!  
 Here's the link to interact with the app directly: https://yyc-house-prices.streamlit.app 
 
 ## How It's Made
@@ -38,7 +38,7 @@ From this model selection, the user can then select an `output` from the model w
 Since there are two columns, the user can **view two seperate models at the same time**, comparing the values of each model with another.  
 
 ### `Prediction Mode` 
-This mode is where the fun happens! The user can now select a given model and use it to form their own predictions on house prices based on their variable input values! 
+This mode is where the fun happens! The user can now select a given model and use it to form their own predictions on house prices based on their input variable values! 
 
 To get started, there are important rules that must be followed so the app functions as designed: 
 
