@@ -38,7 +38,7 @@ From this model selection, the user can then select an `output` from the model w
 Since there are two columns, the user can **view two seperate models at the same time**, comparing the values of each model with another.  
 
 ### `Prediction Mode` 
-This mode is where the fun happens! The user can now select a given model and use it to form their own predictions on house prices based on their input variable values! 
+This mode is where the fun happens! The user can now select a given model and use it to form their own **predictions on house prices** based on their **input variable values!**
 
 To get started, there are important rules that must be followed so the app functions as designed: 
 
