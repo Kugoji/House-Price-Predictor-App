@@ -1,5 +1,5 @@
 # Calgary House Price Predictor App 
-A personal project of mine where I provide data analysis, make multiple machine learning models, and allow users to then predict what the price of a house might be in **Calgary, AB** given their own parameter choices!  
+A personal project of mine where I provide data analysis, make multiple machine learning models, and allow users to then predict what the price of a house might be in **Calgary, AB** given their own parameter input values!  
 Here's the link to interact with the app directly: https://yyc-house-prices.streamlit.app 
 
 ## How It's Made
@@ -17,5 +17,14 @@ To use this app, there are **3 modes** the user can select from:
 **Exploratory Data Analysis** mode allows the user to interact with the data in a more analytical sense, providing comprehensive information about the house prices present within the dataset.   
 
 The user can view the values of key **summary statistics** such as the `mean`,`median`, `min`, `max`, `quartiles` and `standard deviation`. 
+
+An interactive graph made using `plotly` shows a **scatter plot** between the `price` and `square footage` of houses within Calgary, based on their respective **area quadrant** (address). The user can interact directly with the graph by zooming in or out, and selecting datapoints. Selecting a datapoint will show additional information regarding that specific house such as the `address`, `square footage` and `number of bedrooms`.  
+
+The user can also select which **center statistic** of the house prices they would like to view (`mean`, `median`, `mode`) and they can then see it broken down by **area quadrant**.  
+
+Another interactive graph made using `plotly` will show the distribution of `house prices` based on their `area quadrant`, enabling users to interact directly with the histrograms to see additional information on how many houses are present within a specific price range. 
+
+
+
 
 
